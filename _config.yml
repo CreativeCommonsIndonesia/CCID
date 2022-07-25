@@ -14,7 +14,7 @@ defaults:
     type: posts
   values:
     layout: post
-description: 
+description: Creative Commons Indonesia
 keywords: 
 disqus:
   name: nama_disini

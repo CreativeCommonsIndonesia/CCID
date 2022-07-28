@@ -8,7 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-description: 
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+description: Creative Commons Indonesia
 keywords: 
 disqus:
   name: nama_disini
@@ -22,11 +28,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      
+url: http://creativecommons.or.id/
